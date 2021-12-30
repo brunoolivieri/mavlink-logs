@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>GPS device</name>
+    <snippet>Created Thu Dec 30 13:24:26 2021</snippet>
+    <LookAt>
+      <gx:TimeSpan>
+        <begin>2021-12-02T13:37:05Z</begin>
+        <end>2021-12-02T13:37:30Z</end>
+      </gx:TimeSpan>
+      <longitude>-47.926274</longitude>
+      <latitude>-15.840317</latitude>
+      <range>1300.000000</range>
+    </LookAt>
+    <!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <scale>.5</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>6</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <snippet/>
+        <description>
+<![CDATA[<table>
+<tr><td><b>Distance</b> 5.3 meters </td></tr>
+<tr><td><b>Min Alt</b> 1028.880 meters </td></tr>
+<tr><td><b>Max Alt</b> 1036.270 meters </td></tr>
+<tr><td><b>Min Speed</b> 0.0 meters/hour </td></tr>
+<tr><td><b>Max Speed</b> 1.5 km/hour </td></tr>
+<tr><td><b>Avg Speed</b> 764.0 meters/hour </td></tr>
+<tr><td><b>Start Time</b>2021-12-02T13:37:05Z</td></tr>
+<tr><td><b>End Time</b>2021-12-02T13:37:30Z</td></tr>
+</table>]]>
+</description>
+        <TimeSpan>
+          <begin>2021-12-02T13:37:05Z</begin>
+          <end>2021-12-02T13:37:30Z</end>
+        </TimeSpan>
+        <Folder>
+          <name>Points</name>
+          <Placemark>
+            <name>-0</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926276 </td></tr>
+<tr><td>Latitude: -15.840318 </td></tr>
+<tr><td>Altitude: 1032.130 meters </td></tr>
+<tr><td>Speed: 540.0 meters/hour </td></tr>
+<tr><td>Heading: 249.1 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:05Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926276</longitude>
+              <latitude>-15.840318</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:05Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926276,-15.840318,1032.13</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-1</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926279 </td></tr>
+<tr><td>Latitude: -15.840320 </td></tr>
+<tr><td>Altitude: 1033.170 meters </td></tr>
+<tr><td>Speed: 180.0 meters/hour </td></tr>
+<tr><td>Heading: 239.1 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:06Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926279</longitude>
+              <latitude>-15.840320</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:06Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926279,-15.840320,1033.17</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-2</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926281 </td></tr>
+<tr><td>Latitude: -15.840321 </td></tr>
+<tr><td>Altitude: 1034.310 meters </td></tr>
+<tr><td>Speed: 216.0 meters/hour </td></tr>
+<tr><td>Heading: 218.7 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:07Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926281</longitude>
+              <latitude>-15.840321</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:07Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926281,-15.840321,1034.31</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-3</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926280 </td></tr>
+<tr><td>Latitude: -15.840323 </td></tr>
+<tr><td>Altitude: 1035.610 meters </td></tr>
+<tr><td>Speed: 288.0 meters/hour </td></tr>
+<tr><td>Heading: 141.8 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:08Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926280</longitude>
+              <latitude>-15.840323</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:08Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926280,-15.840323,1035.61</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-4</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926280 </td></tr>
+<tr><td>Latitude: -15.840324 </td></tr>
+<tr><td>Altitude: 1036.270 meters </td></tr>
+<tr><td>Speed: 720.0 meters/hour </td></tr>
+<tr><td>Heading: 192.1 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:09Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926280</longitude>
+              <latitude>-15.840324</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:09Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926280,-15.840324,1036.27</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-5</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926281 </td></tr>
+<tr><td>Latitude: -15.840325 </td></tr>
+<tr><td>Altitude: 1036.190 meters </td></tr>
+<tr><td>Speed: 252.0 meters/hour </td></tr>
+<tr><td>Heading: 257.0 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:10Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926281</longitude>
+              <latitude>-15.840325</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:10Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926281,-15.840325,1036.19</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-6</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926283 </td></tr>
+<tr><td>Latitude: -15.840325 </td></tr>
+<tr><td>Altitude: 1036.060 meters </td></tr>
+<tr><td>Speed: 684.0 meters/hour </td></tr>
+<tr><td>Heading: 255.4 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:11Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926283</longitude>
+              <latitude>-15.840325</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:11Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926283,-15.840325,1036.06</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-7</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926284 </td></tr>
+<tr><td>Latitude: -15.840325 </td></tr>
+<tr><td>Altitude: 1035.440 meters </td></tr>
+<tr><td>Speed: 396.0 meters/hour </td></tr>
+<tr><td>Heading: 290.4 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:12Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926284</longitude>
+              <latitude>-15.840325</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:12Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926284,-15.840325,1035.44</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-8</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926285 </td></tr>
+<tr><td>Latitude: -15.840324 </td></tr>
+<tr><td>Altitude: 1034.840 meters </td></tr>
+<tr><td>Speed: 180.0 meters/hour </td></tr>
+<tr><td>Heading: 307.9 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:13Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926285</longitude>
+              <latitude>-15.840324</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:13Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926285,-15.840324,1034.84</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-9</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926286 </td></tr>
+<tr><td>Latitude: -15.840324 </td></tr>
+<tr><td>Altitude: 1034.740 meters </td></tr>
+<tr><td>Speed: 1.5 km/hour </td></tr>
+<tr><td>Heading: 247.4 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:14Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926286</longitude>
+              <latitude>-15.840324</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:14Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926286,-15.840324,1034.74</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-10</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926286 </td></tr>
+<tr><td>Latitude: -15.840324 </td></tr>
+<tr><td>Altitude: 1033.420 meters </td></tr>
+<tr><td>Speed: 144.0 meters/hour </td></tr>
+<tr><td>Heading: 342.2 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:15Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926286</longitude>
+              <latitude>-15.840324</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:15Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926286,-15.840324,1033.42</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-11</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926285 </td></tr>
+<tr><td>Latitude: -15.840325 </td></tr>
+<tr><td>Altitude: 1032.790 meters </td></tr>
+<tr><td>Speed: 432.0 meters/hour </td></tr>
+<tr><td>Heading: 132.7 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:16Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926285</longitude>
+              <latitude>-15.840325</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:16Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926285,-15.840325,1032.79</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-12</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926286 </td></tr>
+<tr><td>Latitude: -15.840325 </td></tr>
+<tr><td>Altitude: 1031.900 meters </td></tr>
+<tr><td>Speed: 72.0 meters/hour </td></tr>
+<tr><td>Heading: 270.0 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:17Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926286</longitude>
+              <latitude>-15.840325</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:17Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926286,-15.840325,1031.90</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-13</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926284 </td></tr>
+<tr><td>Latitude: -15.840325 </td></tr>
+<tr><td>Altitude: 1031.290 meters </td></tr>
+<tr><td>Speed: 648.0 meters/hour </td></tr>
+<tr><td>Heading: 106.5 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:18Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926284</longitude>
+              <latitude>-15.840325</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:18Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926284,-15.840325,1031.29</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-14</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926283 </td></tr>
+<tr><td>Latitude: -15.840326 </td></tr>
+<tr><td>Altitude: 1030.400 meters </td></tr>
+<tr><td>Speed: 432.0 meters/hour </td></tr>
+<tr><td>Heading: 124.7 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:19Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926283</longitude>
+              <latitude>-15.840326</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:19Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926283,-15.840326,1030.40</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-15</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926283 </td></tr>
+<tr><td>Latitude: -15.840324 </td></tr>
+<tr><td>Altitude: 1029.700 meters </td></tr>
+<tr><td>Speed: 324.0 meters/hour </td></tr>
+<tr><td>Heading: 10.4 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:20Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926283</longitude>
+              <latitude>-15.840324</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:20Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926283,-15.840324,1029.70</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-16</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926282 </td></tr>
+<tr><td>Latitude: -15.840323 </td></tr>
+<tr><td>Altitude: 1029.770 meters </td></tr>
+<tr><td>Speed: 288.0 meters/hour </td></tr>
+<tr><td>Heading: 62.5 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:21Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926282</longitude>
+              <latitude>-15.840323</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:21Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926282,-15.840323,1029.77</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-17</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926279 </td></tr>
+<tr><td>Latitude: -15.840323 </td></tr>
+<tr><td>Altitude: 1029.840 meters </td></tr>
+<tr><td>Speed: 540.0 meters/hour </td></tr>
+<tr><td>Heading: 86.3 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:22Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926279</longitude>
+              <latitude>-15.840323</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:22Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926279,-15.840323,1029.84</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-18</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926277 </td></tr>
+<tr><td>Latitude: -15.840322 </td></tr>
+<tr><td>Altitude: 1029.710 meters </td></tr>
+<tr><td>Speed: 1.0 km/hour </td></tr>
+<tr><td>Heading: 51.4 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:23Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926277</longitude>
+              <latitude>-15.840322</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:23Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926277,-15.840322,1029.71</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-19</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926276 </td></tr>
+<tr><td>Latitude: -15.840321 </td></tr>
+<tr><td>Altitude: 1030.040 meters </td></tr>
+<tr><td>Speed: 756.0 meters/hour </td></tr>
+<tr><td>Heading: 55.3 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:24Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926276</longitude>
+              <latitude>-15.840321</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:24Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926276,-15.840321,1030.04</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-20</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926274 </td></tr>
+<tr><td>Latitude: -15.840319 </td></tr>
+<tr><td>Altitude: 1030.210 meters </td></tr>
+<tr><td>Speed: 504.0 meters/hour </td></tr>
+<tr><td>Heading: 45.4 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:25Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926274</longitude>
+              <latitude>-15.840319</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:25Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926274,-15.840319,1030.21</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-21</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926272 </td></tr>
+<tr><td>Latitude: -15.840318 </td></tr>
+<tr><td>Altitude: 1030.170 meters </td></tr>
+<tr><td>Speed: 180.0 meters/hour </td></tr>
+<tr><td>Heading: 60.4 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:26Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926272</longitude>
+              <latitude>-15.840318</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:26Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926272,-15.840318,1030.17</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-22</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926270 </td></tr>
+<tr><td>Latitude: -15.840315 </td></tr>
+<tr><td>Altitude: 1029.860 meters </td></tr>
+<tr><td>Speed: 432.0 meters/hour </td></tr>
+<tr><td>Heading: 31.2 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:27Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926270</longitude>
+              <latitude>-15.840315</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:27Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926270,-15.840315,1029.86</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-23</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926268 </td></tr>
+<tr><td>Latitude: -15.840314 </td></tr>
+<tr><td>Altitude: 1030.060 meters </td></tr>
+<tr><td>Speed: 144.0 meters/hour </td></tr>
+<tr><td>Heading: 64.9 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:28Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926268</longitude>
+              <latitude>-15.840314</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:28Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926268,-15.840314,1030.06</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-24</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926265 </td></tr>
+<tr><td>Latitude: -15.840312 </td></tr>
+<tr><td>Altitude: 1029.550 meters </td></tr>
+<tr><td>Speed: 360.0 meters/hour </td></tr>
+<tr><td>Heading: 53.6 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:29Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926265</longitude>
+              <latitude>-15.840312</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:29Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926265,-15.840312,1029.55</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>-25</name>
+            <snippet/>
+            <description><![CDATA[
+<table>
+<tr><td>Longitude: -47.926262 </td></tr>
+<tr><td>Latitude: -15.840309 </td></tr>
+<tr><td>Altitude: 1028.880 meters </td></tr>
+<tr><td>Speed: 0.0 meters/hour </td></tr>
+<tr><td>Heading: 48.0 </td></tr>
+<tr><td>Time: 2021-12-02T13:37:30Z </td></tr>
+</table>
+]]></description>
+            <LookAt>
+              <longitude>-47.926262</longitude>
+              <latitude>-15.840309</latitude>
+              <tilt>66</tilt>
+            </LookAt>
+            <TimeStamp>
+              <when>2021-12-02T13:37:30Z</when>
+            </TimeStamp>
+            <styleUrl>#track</styleUrl>
+            <Point>
+              <extrude>1</extrude>
+              <altitudeMode>absolute</altitudeMode>
+              <coordinates>-47.926262,-15.840309,1028.88</coordinates>
+            </Point>
+          </Placemark>
+        </Folder>
+        <Placemark>
+          <name>Path</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <altitudeMode>absolute</altitudeMode>
+            <coordinates>
+-47.926276,-15.840318,1032.13
+-47.926279,-15.840320,1033.17
+-47.926281,-15.840321,1034.31
+-47.926280,-15.840323,1035.61
+-47.926280,-15.840324,1036.27
+-47.926281,-15.840325,1036.19
+-47.926283,-15.840325,1036.06
+-47.926284,-15.840325,1035.44
+-47.926285,-15.840324,1034.84
+-47.926286,-15.840324,1034.74
+-47.926286,-15.840324,1033.42
+-47.926285,-15.840325,1032.79
+-47.926286,-15.840325,1031.90
+-47.926284,-15.840325,1031.29
+-47.926283,-15.840326,1030.40
+-47.926283,-15.840324,1029.70
+-47.926282,-15.840323,1029.77
+-47.926279,-15.840323,1029.84
+-47.926277,-15.840322,1029.71
+-47.926276,-15.840321,1030.04
+-47.926274,-15.840319,1030.21
+-47.926272,-15.840318,1030.17
+-47.926270,-15.840315,1029.86
+-47.926268,-15.840314,1030.06
+-47.926265,-15.840312,1029.55
+-47.926262,-15.840309,1028.88
+</coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
