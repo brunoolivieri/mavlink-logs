@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
   <Document>
     <name>GPS device</name>
-    <snippet>Created Thu Dec 30 13:24:23 2021</snippet>
+    <snippet>Created Thu Jan 6 14:42:15 2022</snippet>
     <LookAt>
       <gx:TimeSpan>
         <begin>2021-12-02T13:26:16Z</begin>
